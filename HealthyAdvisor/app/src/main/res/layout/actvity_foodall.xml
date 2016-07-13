@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainColor">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@color/mainColor"
+            android:fitsSystemWindows="true"></android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/default_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/default_icon_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:clickable="true"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/default_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="食疗大全"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/gai"
+                    style="@style/All_Foods_Radio"
+                    android:text="补钙" />
+
+                <RadioButton
+                    android:id="@+id/qi"
+
+                    style="@style/All_Foods_Radio"
+                    android:text="补气" />
+
+                <RadioButton
+                    android:id="@+id/pinxue"
+                    style="@style/All_Foods_Radio"
+                    android:text="贫血" />
+
+                <RadioButton
+                    android:id="@+id/jiannao"
+                    style="@style/All_Foods_Radio"
+                    android:text="健脑益智" />
+
+                <RadioButton
+                    android:id="@+id/jianghuo"
+                    style="@style/All_Foods_Radio"
+                    android:text="降火" />
+
+                <RadioButton
+                    android:id="@+id/immunity"
+                    style="@style/All_Foods_Radio"
+                    android:text="免疫力" />
+
+                <RadioButton
+                    android:id="@+id/bianmi"
+
+                    style="@style/All_Foods_Radio"
+                    android:text="便秘" />
+
+                <RadioButton
+                        android:id="@+id/qingchang"
+
+                    style="@style/All_Foods_Radio"
+                    android:text="清肠" />
+
+
+                <RadioButton
+                    android:id="@+id/diarrhea"
+
+                    style="@style/All_Foods_Radio"
+                    android:text="腹泻" />
+
+                <RadioButton
+                    android:id="@+id/fever"
+                    style="@style/All_Foods_Radio"
+                    android:text="感冒发烧" />
+
+                <RadioButton
+                    android:id="@+id/sweat"
+                    style="@style/All_Foods_Radio"
+                    android:text="自汗盗汗" />
+
+                <RadioButton
+                    android:id="@+id/buxue"
+                    style="@style/All_Foods_Radio"
+                    android:text="补血" />
+
+                <RadioButton
+                    android:id="@+id/iron"
+                    style="@style/All_Foods_Radio"
+                    android:text="补铁" />
+
+                <RadioButton
+                    android:id="@+id/zn"
+                    style="@style/All_Foods_Radio"
+                    android:text="补锌" />
+
+                <RadioButton
+                    android:id="@+id/xi"
+                    style="@style/All_Foods_Radio"
+                    android:text="补硒" />
+
+                <RadioButton
+                    android:id="@+id/dian"
+                    style="@style/All_Foods_Radio"
+                    android:text="补碘    " />
+
+                <RadioButton
+                    android:id="@+id/lung"
+                    style="@style/All_Foods_Radio"
+                    android:text="润肺" />
+
+                <RadioButton
+                    android:id="@+id/liver"
+                    style="@style/All_Foods_Radio"
+                    android:text="养肝/护肝" />
+
+                <RadioButton
+                    android:id="@+id/kidney"
+                    style="@style/All_Foods_Radio"
+                    android:text="养肾/补肾" />
+
+                <RadioButton
+                    android:id="@+id/heart"
+                    style="@style/All_Foods_Radio"
+                    android:text="补心/养心" />
+
+                <RadioButton
+                    android:id="@+id/qixue"
+                    style="@style/All_Foods_Radio"
+                    android:text="气血双补" />
+
+                <RadioButton
+                    android:id="@+id/yangxue"
+                    style="@style/All_Foods_Radio"
+                    android:text="养血" />
+
+                <RadioButton
+                    android:id="@+id/jianppi"
+                    style="@style/All_Foods_Radio"
+                    android:text="健脾" />
+
+                <RadioButton
+                    android:id="@+id/stomach"
+                    style="@style/All_Foods_Radio"
+                    android:text="养胃" />
+
+                <RadioButton
+                    android:id="@+id/eyes"
+                    style="@style/All_Foods_Radio"
+                    android:text="明目" />
+
+                <RadioButton
+                    android:id="@+id/intestines"
+                    style="@style/All_Foods_Radio"
+                    android:text="润肠通便" />
+
+                <RadioButton
+                    android:id="@+id/forgetful"
+                    style="@style/All_Foods_Radio"
+                    android:text="健忘" />
+
+                <RadioButton
+                    android:id="@+id/damp"
+                    style="@style/All_Foods_Radio"
+                    android:text="祛湿" />
+
+                <RadioButton
+                    android:id="@+id/appetite"
+                    style="@style/All_Foods_Radio"
+                    android:text="增进食欲" />
+
+                <RadioButton
+                    android:id="@+id/digestion"
+                    style="@style/All_Foods_Radio"
+                    android:text="消食" />
+
+                <RadioButton
+                    android:id="@+id/radiation"
+                    style="@style/All_Foods_Radio"
+                    android:text="防辐射" />
+
+                <RadioButton
+                    android:id="@+id/smog"
+                    style="@style/All_Foods_Radio"
+                    android:text="对抗雾霾" />
+
+                <RadioButton
+                    android:id="@+id/decompression"
+                    style="@style/All_Foods_Radio"
+                    android:text="减压" />
+
+                <RadioButton
+                    android:id="@+id/dyspepsia"
+                    style="@style/All_Foods_Radio"
+                    android:text="消化不良" />
+
+                <RadioButton
+                android:id="@+id/afteroperation"
+                    style="@style/All_Foods_Radio"
+                    android:text="术后" />
+
+                <RadioButton
+                    android:id="@+id/buxu"
+                    style="@style/All_Foods_Radio"
+                    android:text="补虚养身" />
+
+                <RadioButton
+                    android:id="@+id/zhuagnyao"
+                    style="@style/All_Foods_Radio"
+                    android:text="壮腰健肾" />
+
+                <RadioButton
+                    android:id="@+id/hemostasis"
+                    style="@style/All_Foods_Radio"
+                    android:text="止血调理" />
+
+                <RadioButton
+                    android:id="@+id/sugan"
+                    style="@style/All_Foods_Radio"
+                    android:text="疏肝理气" />
+
+                <RadioButton
+                    android:id="@+id/diuresis"
+                    style="@style/All_Foods_Radio"
+                    android:text="利尿" />
+
+                <RadioButton
+                    android:id="@+id/yeniao"
+                    style="@style/All_Foods_Radio"
+                    android:text="夜尿多" />
+
+                <RadioButton
+                    android:id="@+id/malnutrition"
+                    style="@style/All_Foods_Radio"
+                    android:text="营养不良" />
+
+                <RadioButton
+                    android:id="@+id/weileng"
+                    style="@style/All_Foods_Radio"
+                    android:text="肢寒畏冷" />
+
+                <RadioButton
+                    android:id="@+id/luansheng"
+                    style="@style/All_Foods_Radio"
+                    android:text="驱寒暖身" />
+
+                <RadioButton
+                    android:id="@+id/yuhan"
+                    style="@style/All_Foods_Radio"
+                    android:text="御寒" />
+
+                <RadioButton
+                    android:id="@+id/fattening"
+                    style="@style/All_Foods_Radio"
+                    android:text="增肥" />
+
+                <RadioButton
+                    android:id="@+id/weight"
+                    style="@style/All_Foods_Radio"
+                    android:text="增重增肌" />
+
+                <RadioButton
+                    android:id="@+id/huoxue"
+                    style="@style/All_Foods_Radio"
+                    android:text="活血化瘀" />
+
+                <RadioButton
+                    android:id="@+id/carsickness"
+                    style="@style/All_Foods_Radio"
+                    android:text="晕车" />
+
+                <RadioButton
+                    android:id="@+id/ziyin"
+                    style="@style/All_Foods_Radio"
+                    android:text="滋阴" />
+
+                <RadioButton
+                    android:id="@+id/yishou"
+                    style="@style/All_Foods_Radio"
+                    android:text="益寿" />
+
+                <RadioButton
+                    android:id="@+id/yizhi"
+                    style="@style/All_Foods_Radio"
+                    android:text="益智补脑" />
+
+                <RadioButton
+                    android:id="@+id/xiaoshu"
+                    style="@style/All_Foods_Radio"
+                    android:text="消暑解渴" />
+
+                <RadioButton
+                    android:id="@+id/qingre"
+                    style="@style/All_Foods_Radio"
+                    android:text="清热解毒" />
+
+                <RadioButton
+                    android:id="@+id/memory"
+                    style="@style/All_Foods_Radio"
+                    android:text="增强记忆力" />
+
+                <RadioButton
+                    android:id="@+id/kaiwei"
+                    style="@style/All_Foods_Radio"
+                    android:text="开胃" />
+
+            </RadioGroup>
+        </ScrollView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/food_all_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+            <com.example.hanlu.healthyadvisor.view.EmptyLayout
+                android:layout_width="match_parent"
+                android:id="@+id/empty_layout"
+                android:layout_height="match_parent"></com.example.hanlu.healthyadvisor.view.EmptyLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.example.hanlu.healthyadvisor"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "default_channel"]
+    }
+
+    sourceSets {
+        main.jniLibs.srcDirs = ['libs']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.jiechic.library:xUtils:2.6.14'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile files('libs/AMap_Location_v2.3.0_20160112.jar')
+    compile files('libs/pinyin4android1.0.jar')
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile files('libs/AMap_Search_V3.2.1_20160308.jar')
+    compile files('libs/zxing.jar')
+    compile project(':viewPagerindicator')
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile project(':PushSDK')
+    compile project(':FeedBack')
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile project(':CommonUtils')
+    compile project(':showCaseView')
+    compile project(':okhttputils')
+    compile files('libs/BmobSDK_3.5.0_20160627.jar')
+    compile files('libs/rxandroid-1.2.0.jar')
+    compile files('libs/rxjava-1.1.6.jar')
+    compile 'com.android.support:design:23.1.1'
+}

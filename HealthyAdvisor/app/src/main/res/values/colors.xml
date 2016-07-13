@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainColor">#6eb4ff</color>
+    <color name="secColor">#6eb4c8</color>
+    <color name="red">#f00</color>
+    <color name="white">#fff</color>
+    <color name="qianColor">#72b5fa</color>
+
+    <color name="background">#f4f4f4</color>
+    <color name="word">#bcbdc3</color>
+    <color name="wordPrimary">#1e1e1e</color>
+    <color name="wordSecondry">#585858</color>
+    <color name="line">#dddddd</color>
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="mainred">#ff4d0f</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <color name="color_ff">#F0F0F0</color>
+    <color name="color_00">#8A000000</color>
+    <color name="input_background">#ffe8e8e8</color>
+    <color name="emoji_line">#ffcbc9ca</color>
+    <color name="font_black_content">#ff222222</color>
+    <color name="font_black_9">#999999</color>
+</resources>

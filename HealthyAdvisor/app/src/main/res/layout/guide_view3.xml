@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+        android:background="@drawable/t01c4b8899db329377f"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/guide_btn"
+        android:background="@android:color/transparent"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/guide"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

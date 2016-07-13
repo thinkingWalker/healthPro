@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/holder_house_item_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/holder_house_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/holder_house_item_image"
+            android:text="北京西单医药有限责任公司"
+            android:textColor="@color/wordSecondry"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/holder_house_item_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/holder_house_item_name"
+            android:layout_below="@+id/holder_house_item_name"
+            android:layout_marginTop="5dp"
+            android:text="主营：中成药、化学药制剂、化学原料药、抗生素、生化药品"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/holder_house_item_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/holder_house_item_name"
+            android:layout_below="@+id/holder_house_item_medicine"
+            android:layout_marginTop="5dp"
+            android:text="地址：北京市房山区闫村镇张庄村工业区A区25号、北京市西城区德胜门内大街羊房胡同9号"
+            android:textSize="10dp" />
+
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_alignLeft="@+id/holder_house_item_address"
+            android:id="@+id/holder_house_item_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/holder_house_item_address"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/wordSecondry"
+            android:text="010-67024137"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/phone"
+            android:textSize="14dp" />
+    </RelativeLayout>
+</LinearLayout>

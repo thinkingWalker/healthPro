@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medicine_query_style">
+        <item>药品名称</item>
+        <item>国药准字</item>
+        <item>条形码</item>
+    </string-array>
+</resources>

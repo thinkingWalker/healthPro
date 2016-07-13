@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">健康定制</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tv_home">首页</string>
+    <string name="tv_setting">设置</string>
+    <string name="tv_theme">主题</string>
+    <string name="tv_scans">安装包管理</string>
+    <string name="tv_feedback">反馈</string>
+    <string name="tv_updates">检查更新</string>
+    <string name="tv_about">关于</string>
+    <string name="tv_exit">退出</string>
+    <string name="app_detail_introduction">简介</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="error_view_loading">加载中</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用网络</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\\r\\n点击重新加载</string>
+    <string name="error_view_no_data" >暂无内容</string>
+    <string name="loading">加载中…</string>
+    <string name="loading_no_more">已加载全部</string>
+    <string name="about" >
+        hi,朋友，欢迎来到健康定制。在这个万众创新的时代，想不想拥有一个属于自己订制化的app？而且还不用任何的费用哟。
+        如果想要那就赶紧在"反馈里面"来给我提意见吧(任何意见都可以提，界面，内容，方向等等...)。我会综合大众的普遍需
+        求去做这个app，当然现在这个app功能很少，界面很丑。但我相信我们一起可以把他变成更好用，更美观也更实用的app，come on!
+    </string>
+
+    <!--footer-->
+    <string name="list_footer_loading">正在加载中…</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="list_footer_end">已经到底了</string>
+    <string name="location_undefined">所在位置</string>
+    <string name="tweet_hint">聊聊把</string>
+    <string-array name="grid_name">
+        <item>营养配餐</item>
+        <item>食疗大全</item>
+        <item>健康知识</item>
+        <item>反馈</item>
+        <item>关于</item>
+        <item>今天吃了啥</item>
+    </string-array>
+
+    <string-array name="knowledge_title">
+        <item>最新</item>
+        <item>减肥瘦身</item>
+        <item>私密生活</item>
+        <item>女性保养</item>
+        <item>男性健康</item>
+        <item>孕婴手册</item>
+        <item>夫妻情感</item>
+        <item>育儿宝典</item>
+        <item>健康饮食</item>
+        <item>医疗护理</item>
+        <item>老人健康</item>
+        <item>孩子健康</item>
+        <item>四季养生</item>
+        <item>心里健康</item>
+    </string-array>
+</resources>

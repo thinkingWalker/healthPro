@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/tv_about"/>
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/tv_exit"/>
+    </group>
+
+    <!--<item android:title="Version">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:icon="@drawable/ic_drawer_shadow"-->
+                <!--android:title="Android"/>-->
+            <!--<item-->
+                <!--android:icon="@drawable/ic_exit"-->
+                <!--android:title="iOS"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>
